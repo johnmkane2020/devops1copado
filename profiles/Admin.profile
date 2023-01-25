@@ -11711,6 +11711,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Division__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.ExpectedRevenue</field>
         <readable>false</readable>
@@ -25836,6 +25841,15 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceAction__c-SBQQ__Price Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceCondition__c-SBQQ__Price Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceRule__c-SBQQ__Price Rule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
