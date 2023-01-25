@@ -29,18 +29,6 @@
             <translation><!-- Copado Robotic Testing --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>DigitSec Security Scan</masterLabel>
-            <translation><!-- DigitSec Security Scan --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>DigitSec Security Scan Tool</masterLabel>
-            <translation><!-- DigitSec Security Scan Tool --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>MC Mock Tool</masterLabel>
-            <translation><!-- MC Mock Tool --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>None</masterLabel>
             <translation><!-- None --></translation>
         </picklistValues>
@@ -65,8 +53,23 @@
         <label><!-- Test Type --></label>
         <name>copado__TestType__c</name>
     </fields>
-    <validationRules>
-        <errorMessage><!-- This Extension Tool cannot be modified. Please create a new Extension Configuration record instead. --></errorMessage>
-        <name>copado__PreventUpdatingExtensionTool</name>
-    </validationRules>
+    <layouts>
+        <layout>Extension Configuration Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Activate - Deprecated --></label>
+        <name>copado__Activate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Activate --></label>
+        <name>copado__Activation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Deactivate --></label>
+        <name>copado__Deactivate</name>
+    </quickActions>
 </CustomObjectTranslation>
