@@ -128,6 +128,21 @@
         <label><!-- Time Zone --></label>
         <name>Time_Zone__c</name>
     </fields>
+    <layouts>
+        <layout>CPQ Account Layout</layout>
+        <sections>
+            <label>Informations supplémentaires</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informations sur les renouvellements/durées identiques</label>
+            <section>Renewal/Co-Term Information</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- AltavistaNews --></label>
         <name>AltavistaNews</name>

@@ -141,17 +141,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>copado__Extension_Configuration_Panel</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>copado__Extension_Configuration_Panel</fullName>
-        <fields>Name</fields>
-        <fields>copado__ExtensionTool__c</fields>
-        <fields>copado__ExtensionApplication__c</fields>
-        <fields>copado__TestType__c</fields>
-        <fields>copado__Active__c</fields>
-        <fields>LastModifiedById</fields>
-        <label>Extension Configuration Panel</label>
-    </compactLayouts>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
     <description>Defines the configuration for a specific extension.</description>
@@ -238,21 +228,6 @@
                     <default>false</default>
                     <label>Copado Robotic Testing</label>
                 </value>
-                <value>
-                    <fullName>DigitSec Security Scan</fullName>
-                    <default>false</default>
-                    <label>DigitSec Security Scan</label>
-                </value>
-                <value>
-                    <fullName>DigitSec Security Scan Tool</fullName>
-                    <default>false</default>
-                    <label>DigitSec Security Scan Tool</label>
-                </value>
-                <value>
-                    <fullName>MC Mock Tool</fullName>
-                    <default>false</default>
-                    <label>MC Mock Tool</label>
-                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -323,12 +298,5 @@
         <searchResultsAdditionalFields>UPDATEDBY_USER</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>copado__PreventUpdatingExtensionTool</fullName>
-        <active>true</active>
-        <description>This rule prevents users from modifying the Tool Configuration after the Extension Configuration is activated.</description>
-        <errorConditionFormula>AND( copado__Active__c , ISCHANGED( copado__ExtensionTool__c ) )</errorConditionFormula>
-        <errorMessage>This Extension Tool cannot be modified. Please create a new Extension Configuration record instead.</errorMessage>
-    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>
