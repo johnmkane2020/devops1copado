@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
         <help><!-- Indicates whether this rule is active or not. --></help>
         <label><!-- Active --></label>
         <name>SBQQ__Active__c</name>
@@ -94,6 +98,13 @@
             <translation><!-- Configurator --></translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Price Rule Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- CloneWithRelated --></label>
         <name>SBQQ__CloneWithRelated</name>

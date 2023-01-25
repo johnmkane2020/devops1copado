@@ -9,6 +9,10 @@
         <value>Règles de prix</value>
     </caseValues>
     <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
         <help>Indique si cette règle est active ou non.</help>
         <label><!-- Active --></label>
         <name>SBQQ__Active__c</name>
@@ -103,6 +107,13 @@
         </picklistValues>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Price Rule Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nom de la règle de prix</nameFieldLabel>
     <startsWith>Consonant</startsWith>
     <webLinks>

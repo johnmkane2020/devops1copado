@@ -9,6 +9,10 @@
         <name>Level__c</name>
     </fields>
     <fields>
+        <label><!-- NFL --></label>
+        <name>NFL__c</name>
+    </fields>
+    <fields>
         <label><!-- Primary Location --></label>
         <name>Primary_Location__c</name>
     </fields>
@@ -117,6 +121,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Sports --></label>
+        <name>Sports__c</name>
+    </fields>
+    <fields>
         <label><!-- State --></label>
         <name>State__c</name>
     </fields>
@@ -128,6 +136,25 @@
         <label><!-- Time Zone --></label>
         <name>Time_Zone__c</name>
     </fields>
+    <fields>
+        <label><!-- XFL --></label>
+        <name>XFL__c</name>
+    </fields>
+    <layouts>
+        <layout>CPQ Account Layout</layout>
+        <sections>
+            <label>Informações adicionais</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informações de renovação/encerramento combinado</label>
+            <section>Renewal/Co-Term Information</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- AltavistaNews --></label>
         <name>AltavistaNews</name>

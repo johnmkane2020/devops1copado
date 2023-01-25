@@ -41,6 +41,10 @@
         <value><!-- Preisaktionen --></value>
     </caseValues>
     <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
         <help>Wählen Sie das Feld aus, das aktualisiert werden soll, wenn die Bedingungen erfüllt sind.</help>
         <label><!-- Target Field --></label>
         <name>SBQQ__Field__c</name>
@@ -136,6 +140,17 @@
         <name>SBQQ__Value__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Price Action Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Preisaktionsquellen</label>
+            <section>Price Action Sources</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Aktionsnummer</nameFieldLabel>
     <validationRules>
         <errorMessage><!-- Price Action Target Object does not match Evaluation Scope --></errorMessage>

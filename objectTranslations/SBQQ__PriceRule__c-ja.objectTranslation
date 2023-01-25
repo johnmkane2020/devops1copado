@@ -5,6 +5,10 @@
         <value>価格ルール</value>
     </caseValues>
     <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
         <help>このルールが有効かどうかを示します。</help>
         <label><!-- Active --></label>
         <name>SBQQ__Active__c</name>
@@ -98,6 +102,13 @@
             <translation>コンフィグレータ</translation>
         </picklistValues>
     </fields>
+    <layouts>
+        <layout>Price Rule Layout</layout>
+        <sections>
+            <label>カスタムリンク</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>価格ルール名</nameFieldLabel>
     <webLinks>
         <label><!-- CloneWithRelated --></label>
