@@ -630,30 +630,6 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>cml_Caused_Business_Disruption__c</fullName>
-        <defaultValue>false</defaultValue>
-        <deprecated>false</deprecated>
-        <description>Indicates if this Promotion caused a Business Disruption</description>
-        <externalId>false</externalId>
-        <label>Caused Business Disruption</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>cml_Is_Destination_a_Production_Org__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Indicates if this Promotion is targeting a Production Org</description>
-        <externalId>false</externalId>
-        <formula>IF
-(NOT(ISNULL(copado__Destination_Environment__c)),
-copado__Destination_Environment__r.cml_Is_Production_Org__c,
-false)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Is Destination a Production Org</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>copado__Back_Promotion__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
@@ -1010,7 +986,7 @@ false)</formula>
         <height>600</height>
         <isResizable>true</isResizable>
         <linkType>page</linkType>
-        <masterLabel>Rollback</masterLabel>
+        <masterLabel>Rollback (beta)</masterLabel>
         <openType>newWindow</openType>
         <page>copado__RollbackWizard</page>
         <position>none</position>

@@ -128,7 +128,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>User_Story_Record_Page_Unmanaged</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -136,8 +136,8 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override updated by Lightning App Builder during activation.</comment>
-        <content>copado__User_Story_Layout</content>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>User_Story_Record_Page_Unmanaged</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
@@ -6230,59 +6230,6 @@
         <type>DateTime</type>
     </fields>
     <fields>
-        <fullName>DigitSec_Scan_Result__c</fullName>
-        <externalId>false</externalId>
-        <label>DigitSec Scan Result</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Not Started</fullName>
-                    <default>false</default>
-                    <label>Not Started</label>
-                </value>
-                <value>
-                    <fullName>In Progress</fullName>
-                    <default>false</default>
-                    <label>In Progress</label>
-                </value>
-                <value>
-                    <fullName>Success</fullName>
-                    <default>false</default>
-                    <label>Success</label>
-                </value>
-                <value>
-                    <fullName>Failed</fullName>
-                    <default>false</default>
-                    <label>Failed</label>
-                </value>
-                <value>
-                    <fullName>Cancelled</fullName>
-                    <default>false</default>
-                    <label>Cancelled</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
-        <fullName>DigitSec_Security_Scan__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>DigitSec Security Scan</label>
-        <referenceTo>copado__Result__c</referenceTo>
-        <relationshipLabel>User Stories</relationshipLabel>
-        <relationshipName>User_Stories</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Jira_Key__c</fullName>
         <externalId>false</externalId>
         <label>Jira Key</label>
@@ -6357,91 +6304,6 @@
         <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>cml_First_Ready_to_Promote_Time__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Records the date/time on which this User Story was first marked as Ready to Promote</description>
-        <externalId>false</externalId>
-        <label>First Ready to Promote Time</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>cml_First_Time_Promoted_Prod_or_RB__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Records the first time this User Story was promoted to a Production Org OR Rolled Back out of Production. Used in the calculation of both Lead Time and Mean Time to Restore</description>
-        <externalId>false</externalId>
-        <label>First Time Promoted Prod Or Rolled Back</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>DateTime</type>
-    </fields>
-    <fields>
-        <fullName>cml_Found_in_Promotion__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Found in Promotion</label>
-        <referenceTo>copado__Promotion__c</referenceTo>
-        <relationshipLabel>User Stories (Found in Promotion)</relationshipLabel>
-        <relationshipName>User_Stories</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>cml_Is_Business_Disruption_Failure__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Indicates if this User Story is considered a Business Disrupting Failure (i.e. a P0 or P1 severity issue)</description>
-        <externalId>false</externalId>
-        <formula>IF(OR(TEXT(cml_Severity__c) == &apos;P0 - Blocker - Business Disruption&apos;, TEXT(cml_Severity__c) == &apos;P1 - Critical - No Workaround&apos;), true, false)</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Is Business Disruption Failure</label>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>cml_Severity__c</fullName>
-        <deprecated>false</deprecated>
-        <description>Used to track the severity on User Stories of type Bug</description>
-        <externalId>false</externalId>
-        <label>Severity</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>P0 - Blocker - Business Disruption</fullName>
-                    <default>false</default>
-                    <label>P0 - Blocker - Business Disruption</label>
-                </value>
-                <value>
-                    <fullName>P1 - Critical - No Workaround</fullName>
-                    <default>false</default>
-                    <label>P1 - Critical - No Workaround</label>
-                </value>
-                <value>
-                    <fullName>P2 - Major</fullName>
-                    <default>false</default>
-                    <label>P2 - Major</label>
-                </value>
-                <value>
-                    <fullName>P3 - Minor</fullName>
-                    <default>false</default>
-                    <label>P3 - Minor</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>copado__Acceptance_Criteria_Status__c</fullName>
@@ -6768,7 +6630,7 @@
         <description>If checked, this user story will not be included in the count of user stories ahead and behind.</description>
         <externalId>false</externalId>
         <inlineHelpText>If checked, this user story will not be included in the count of user stories ahead and behind.</inlineHelpText>
-        <label>Exclude from Pipelines</label>
+        <label>Exclude From CBM</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -7775,7 +7637,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <description>If checked, the User Story will not be indexed for Copado&apos;s Overlap Awareness.</description>
         <externalId>false</externalId>
         <inlineHelpText>If checked, the User Story will not be indexed for Copado&apos;s Overlap Awareness.</inlineHelpText>
-        <label>Exclude from Overlap Awareness</label>
+        <label>Stop Indexing Metadata</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -8080,22 +7942,20 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <columns>NAME</columns>
         <columns>copado__User_Story_Title__c</columns>
         <columns>copado__Status__c</columns>
-        <columns>copado__Validate_Only__c</columns>
-        <columns>copado__Environment__c</columns>
-        <columns>copado__Sprint__c</columns>
-        <columns>copado__Release__c</columns>
         <columns>copado__Promote_Change__c</columns>
+        <columns>copado__Environment__c</columns>
+        <columns>copado__Project__c</columns>
         <columns>RECORDTYPE</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>RECORDTYPE</field>
-            <operation>equals</operation>
-            <value>copado__User_Story__c.copado__User_Story</value>
+            <field>copado__Priority__c</field>
+            <operation>notEqual</operation>
+            <value>3</value>
         </filters>
         <filters>
-            <field>CREATED_DATE</field>
-            <operation>greaterOrEqual</operation>
-            <value>9/26/2022 12:00 AM</value>
+            <field>copado__Project__c</field>
+            <operation>equals</operation>
+            <value>Copado DevOps</value>
         </filters>
         <label>All</label>
     </listViews>
@@ -8127,48 +7987,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Bug</fullName>
         <active>true</active>
         <label>Bug</label>
-        <picklistValues>
-            <picklist>DigitSec_Scan_Result__c</picklist>
-            <values>
-                <fullName>Cancelled</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Failed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>In Progress</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Not Started</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Success</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
         <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
@@ -8629,48 +8447,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <active>true</active>
         <label>Investigation</label>
         <picklistValues>
-            <picklist>DigitSec_Scan_Result__c</picklist>
-            <values>
-                <fullName>Cancelled</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Failed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>In Progress</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Not Started</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Success</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
                 <fullName>Accepted</fullName>
@@ -9130,48 +8906,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <active>true</active>
         <label>User Story</label>
         <picklistValues>
-            <picklist>DigitSec_Scan_Result__c</picklist>
-            <values>
-                <fullName>Cancelled</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Failed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>In Progress</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Not Started</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Success</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
                 <fullName>Accepted</fullName>
@@ -9630,48 +9364,6 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <fullName>copado__Utility</fullName>
         <active>true</active>
         <label>Utility</label>
-        <picklistValues>
-            <picklist>DigitSec_Scan_Result__c</picklist>
-            <values>
-                <fullName>Cancelled</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Failed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>In Progress</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Not Started</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Success</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>cml_Severity__c</picklist>
-            <values>
-                <fullName>P0 - Blocker - Business Disruption</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P1 - Critical - No Workaround</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P2 - Major</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>P3 - Minor</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
         <picklistValues>
             <picklist>copado__Acceptance_Criteria_Status__c</picklist>
             <values>
@@ -10300,26 +9992,6 @@ copado__Environment__c != copado__Org_Credential__r.copado__Environment__c</erro
         <errorMessage>Enter a value between 0 to 100 to specify the Progress in percentage.</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
-    <webLinks>
-        <fullName>DigitSec_S4_Security_Scan</fullName>
-        <availability>online</availability>
-        <description>Launch DigitSec S4 Security Scan</description>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>DigitSec S4 Security Scan</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>/flow/DigitSecFlow?resultId={!copado__User_Story__c.Id}</url>
-    </webLinks>
     <webLinks>
         <fullName>copado__Add_Apex_Tests</fullName>
         <availability>online</availability>

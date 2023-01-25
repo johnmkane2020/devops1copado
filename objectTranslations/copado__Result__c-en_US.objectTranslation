@@ -6,10 +6,6 @@
         <name>copado__ApexCallback__c</name>
     </fields>
     <fields>
-        <label><!-- Credit Sync Status --></label>
-        <name>copado__CreditSyncStatus__c</name>
-    </fields>
-    <fields>
         <help><!-- How many copado credits this process used. --></help>
         <label><!-- Copado Credits Used --></label>
         <name>copado__Custom_Function_Used_Credits__c</name>
@@ -171,4 +167,27 @@
         <name>copado__User_Story__c</name>
         <relationshipLabel><!-- Result --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Result Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Execution Result --></label>
+            <section>Execution Result</section>
+        </sections>
+        <sections>
+            <label><!-- Execution Size --></label>
+            <section>Execution Size</section>
+        </sections>
+        <sections>
+            <label><!-- Execution Time --></label>
+            <section>Execution Time</section>
+        </sections>
+        <sections>
+            <label><!-- Functional Information --></label>
+            <section>Functional Information</section>
+        </sections>
+    </layouts>
 </CustomObjectTranslation>

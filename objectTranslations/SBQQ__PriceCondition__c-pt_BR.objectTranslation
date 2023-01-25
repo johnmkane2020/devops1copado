@@ -9,6 +9,10 @@
         <value>Condições de preços</value>
     </caseValues>
     <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
         <help>Escolha o campo que deve conter o valor inserido no campo Valor.</help>
         <label><!-- Field --></label>
         <name>SBQQ__Field__c</name>
@@ -143,6 +147,17 @@
         <name>SBQQ__Value__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Price Condition Layout</layout>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informações do filtro</label>
+            <section>Filter Information</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Nº da condição</nameFieldLabel>
     <validationRules>
         <errorMessage><!-- If Filter Type is Formula, then Filter Formula cannot be empty. --></errorMessage>

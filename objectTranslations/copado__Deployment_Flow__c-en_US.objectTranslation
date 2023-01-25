@@ -6,11 +6,6 @@
         <name>copado__Active__c</name>
     </fields>
     <fields>
-        <help><!-- Use this option if you want User Stories which already promoted in your Copado Pipeline to apply to the connection behaviours for back promotions which you create in Copado Continuous Delivery --></help>
-        <label><!-- Apply Connection Behaviors to All --></label>
-        <name>copado__Apply_Connection_Behaviours_to_existing__c</name>
-    </fields>
-    <fields>
         <help><!-- If checked, committing changes on user stories linked to this Pipeline will not be allowed --></help>
         <label><!-- Block Commits --></label>
         <name>copado__Block_Commits__c</name>
@@ -37,14 +32,6 @@
         <label><!-- Commit Job Template --></label>
         <name>copado__CommitJobTemplate__c</name>
         <relationshipLabel><!-- Pipelines (Commit Job Template) --></relationshipLabel>
-    </fields>
-    <fields>
-        <label><!-- Continuous Delivery Configuration Json --></label>
-        <name>copado__Continuous_Delivery_Configuration_Json__c</name>
-    </fields>
-    <fields>
-        <label><!-- Continuous Delivery Enabled --></label>
-        <name>copado__Continuous_Delivery_Enabled__c</name>
     </fields>
     <fields>
         <help><!-- Selected DX mode will determine scratch metadata sources. --></help>
@@ -195,6 +182,29 @@ This value will prefill the order by field on related Promotion record creation 
         <name>copado__Static_Code_Analysis_Settings__c</name>
         <relationshipLabel><!-- Pipelines --></relationshipLabel>
     </fields>
+    <layouts>
+        <layout>Pipeline Layout V.17</layout>
+        <sections>
+            <label><!-- Advanced Options --></label>
+            <section>Advanced Options</section>
+        </sections>
+        <sections>
+            <label><!-- Copado DX --></label>
+            <section>Copado DX</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Clone with Environments --></label>
+        <name>copado__Clone_with_Environments</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Exclude Completed Stories --></label>
+        <name>copado__Exclude_Completed_Stories</name>
+    </quickActions>
     <validationRules>
         <errorMessage><!-- A pipeline cannot have the same job template for Commit, Promote and Deploy. --></errorMessage>
         <name>copado__Unique_Job_Template</name>
