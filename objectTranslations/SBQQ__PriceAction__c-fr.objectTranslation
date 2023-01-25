@@ -9,6 +9,10 @@
         <value>Actions de prix</value>
     </caseValues>
     <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
         <help>Sélectionnez le champ que vous souhaitez mettre à jour lorsque les conditions sont remplies.</help>
         <label><!-- Target Field --></label>
         <name>SBQQ__Field__c</name>
@@ -104,6 +108,17 @@
         <name>SBQQ__Value__c</name>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Price Action Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Sources des actions de prix</label>
+            <section>Price Action Sources</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>N° d&apos;action</nameFieldLabel>
     <startsWith>Vowel</startsWith>
     <validationRules>

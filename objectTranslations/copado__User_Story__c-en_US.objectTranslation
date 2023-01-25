@@ -73,35 +73,6 @@
         <name>Datetime_Deployed_To_Production__c</name>
     </fields>
     <fields>
-        <label><!-- DigitSec Scan Result --></label>
-        <name>DigitSec_Scan_Result__c</name>
-        <picklistValues>
-            <masterLabel>Cancelled</masterLabel>
-            <translation><!-- Cancelled --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Failed</masterLabel>
-            <translation><!-- Failed --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>In Progress</masterLabel>
-            <translation><!-- In Progress --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Not Started</masterLabel>
-            <translation><!-- Not Started --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Success</masterLabel>
-            <translation><!-- Success --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <label><!-- DigitSec Security Scan --></label>
-        <name>DigitSec_Security_Scan__c</name>
-        <relationshipLabel><!-- User Stories --></relationshipLabel>
-    </fields>
-    <fields>
         <label><!-- Jira Key --></label>
         <name>Jira_Key__c</name>
     </fields>
@@ -124,43 +95,6 @@
     <fields>
         <label><!-- SCA Violations --></label>
         <name>SCA_Violations__c</name>
-    </fields>
-    <fields>
-        <label><!-- First Ready to Promote Time --></label>
-        <name>cml_First_Ready_to_Promote_Time__c</name>
-    </fields>
-    <fields>
-        <label><!-- First Time Promoted Prod Or Rolled Back --></label>
-        <name>cml_First_Time_Promoted_Prod_or_RB__c</name>
-    </fields>
-    <fields>
-        <label><!-- Found in Promotion --></label>
-        <name>cml_Found_in_Promotion__c</name>
-        <relationshipLabel><!-- User Stories (Found in Promotion) --></relationshipLabel>
-    </fields>
-    <fields>
-        <label><!-- Is Business Disruption Failure --></label>
-        <name>cml_Is_Business_Disruption_Failure__c</name>
-    </fields>
-    <fields>
-        <label><!-- Severity --></label>
-        <name>cml_Severity__c</name>
-        <picklistValues>
-            <masterLabel>P0 - Blocker - Business Disruption</masterLabel>
-            <translation><!-- P0 - Blocker - Business Disruption --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>P1 - Critical - No Workaround</masterLabel>
-            <translation><!-- P1 - Critical - No Workaround --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>P2 - Major</masterLabel>
-            <translation><!-- P2 - Major --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>P3 - Minor</masterLabel>
-            <translation><!-- P3 - Minor --></translation>
-        </picklistValues>
     </fields>
     <fields>
         <label><!-- Acceptance Criteria Status --></label>
@@ -297,7 +231,7 @@
     </fields>
     <fields>
         <help><!-- If checked, this user story will not be included in the count of user stories ahead and behind. --></help>
-        <label><!-- Exclude from Pipelines --></label>
+        <label><!-- Exclude From CBM --></label>
         <name>copado__Exclude_From_CBM__c</name>
     </fields>
     <fields>
@@ -868,7 +802,7 @@
     </fields>
     <fields>
         <help><!-- If checked, the User Story will not be indexed for Copado&apos;s Overlap Awareness. --></help>
-        <label><!-- Exclude from Overlap Awareness --></label>
+        <label><!-- Stop Indexing Metadata --></label>
         <name>copado__Stop_Indexing_Metadata__c</name>
     </fields>
     <fields>
@@ -961,6 +895,143 @@
         <label><!-- Last Synced Date --></label>
         <name>copadoconnect__Last_Synced_Date__c</name>
     </fields>
+    <layouts>
+        <layout>User Story Layout</layout>
+        <sections>
+            <label><!-- Agile content --></label>
+            <section>Agile content</section>
+        </sections>
+        <sections>
+            <label><!-- Apex Code Coverage --></label>
+            <section>Apex Code Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Approvals --></label>
+            <section>Approvals</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance --></label>
+            <section>Compliance</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deployment Flow --></label>
+            <section>Deployment Flow</section>
+        </sections>
+        <sections>
+            <label><!-- Deployment Options --></label>
+            <section>Deployment Options</section>
+        </sections>
+        <sections>
+            <label><!-- Estimation --></label>
+            <section>Estimation</section>
+        </sections>
+        <sections>
+            <label><!-- Project Management --></label>
+            <section>Project Management</section>
+        </sections>
+        <sections>
+            <label><!-- Resourcing --></label>
+            <section>Resourcing</section>
+        </sections>
+        <sections>
+            <label><!-- Specifications --></label>
+            <section>Specifications</section>
+        </sections>
+        <sections>
+            <label><!-- User Story selections --></label>
+            <section>User Story selections</section>
+        </sections>
+        <sections>
+            <label><!-- Validation Deployment Results --></label>
+            <section>Validation Deployment Results</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Story Layout (Unmanaged)</layout>
+        <sections>
+            <label><!-- Apex Code Coverage --></label>
+            <section>Apex Code Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Approvals --></label>
+            <section>Approvals</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance --></label>
+            <section>Compliance</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deployment Flow --></label>
+            <section>Deployment Flow</section>
+        </sections>
+        <sections>
+            <label><!-- Deployment Options --></label>
+            <section>Deployment Options</section>
+        </sections>
+        <sections>
+            <label><!-- Project Management --></label>
+            <section>Project Management</section>
+        </sections>
+        <sections>
+            <label><!-- Resourcing --></label>
+            <section>Resourcing</section>
+        </sections>
+        <sections>
+            <label><!-- User Story selections --></label>
+            <section>User Story selections</section>
+        </sections>
+        <sections>
+            <label><!-- Validation Results --></label>
+            <section>Validation Results</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Utility</layout>
+        <sections>
+            <label><!-- Apex Code Coverage --></label>
+            <section>Apex Code Coverage</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deployment Flow --></label>
+            <section>Deployment Flow</section>
+        </sections>
+        <sections>
+            <label><!-- Deployment Options --></label>
+            <section>Deployment Options</section>
+        </sections>
+        <sections>
+            <label><!-- Project Management --></label>
+            <section>Project Management</section>
+        </sections>
+        <sections>
+            <label><!-- Resourcing --></label>
+            <section>Resourcing</section>
+        </sections>
+        <sections>
+            <label><!-- User Story selections --></label>
+            <section>User Story selections</section>
+        </sections>
+        <sections>
+            <label><!-- Validation Deployment Results --></label>
+            <section>Validation Deployment Results</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Validate Changes --></label>
+        <name>copado__ValidateChanges</name>
+    </quickActions>
     <recordTypes>
         <label><!-- Bug --></label>
         <name>copado__Bug</name>
@@ -1017,10 +1088,6 @@
         <errorMessage><!-- Enter a value between 0 to 100 to specify the Progress in percentage. --></errorMessage>
         <name>copado__User_Story_Progress_Range_Validation</name>
     </validationRules>
-    <webLinks>
-        <label><!-- DigitSec_S4_Security_Scan --></label>
-        <name>DigitSec_S4_Security_Scan</name>
-    </webLinks>
     <webLinks>
         <label><!-- Add_Apex_Tests --></label>
         <name>copado__Add_Apex_Tests</name>

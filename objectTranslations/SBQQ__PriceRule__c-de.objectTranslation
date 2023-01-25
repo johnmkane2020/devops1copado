@@ -41,6 +41,10 @@
         <value><!-- Preisregeln --></value>
     </caseValues>
     <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
         <help>Gibt an, ob diese Regel aktiv oder inaktiv ist.</help>
         <label><!-- Active --></label>
         <name>SBQQ__Active__c</name>
@@ -135,6 +139,13 @@
         </picklistValues>
     </fields>
     <gender>Feminine</gender>
+    <layouts>
+        <layout>Price Rule Layout</layout>
+        <sections>
+            <label>Benutzerdefinierte Links</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Name der Preisregel</nameFieldLabel>
     <webLinks>
         <label><!-- CloneWithRelated --></label>
