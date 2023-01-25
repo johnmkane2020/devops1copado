@@ -14371,6 +14371,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SBQQ__PriceAction__c.External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SBQQ__PriceAction__c.SBQQ__Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14422,6 +14427,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SBQQ__PriceAction__c.SBQQ__Value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__PriceCondition__c.External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14482,6 +14492,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SBQQ__PriceCondition__c.SBQQ__Value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__PriceRule__c.External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -26738,6 +26753,15 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceAction__c-SBQQ__Price Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceCondition__c-SBQQ__Price Condition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__PriceRule__c-SBQQ__Price Rule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
