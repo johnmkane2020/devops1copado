@@ -53,7 +53,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Priority__c</field>
+                <field>Segment__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
