@@ -11742,6 +11742,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.NB__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11823,6 +11828,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Segment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Step__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
