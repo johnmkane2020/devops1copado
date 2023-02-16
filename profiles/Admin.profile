@@ -11792,6 +11792,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Reputation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.SBQQ__AmendedContract__c</field>
         <readable>true</readable>
     </fieldPermissions>
