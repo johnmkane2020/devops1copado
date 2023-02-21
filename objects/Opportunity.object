@@ -252,6 +252,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Main__c</fullName>
+        <externalId>false</externalId>
+        <label>Main</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>NB__c</fullName>
         <externalId>false</externalId>
         <label>NB</label>
@@ -507,6 +518,17 @@
         <fullName>Step__c</fullName>
         <externalId>false</externalId>
         <label>Step</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Support__c</fullName>
+        <externalId>false</externalId>
+        <label>Support</label>
         <length>25</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
