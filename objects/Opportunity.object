@@ -526,6 +526,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Success__c</fullName>
+        <externalId>false</externalId>
+        <label>Success</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Support__c</fullName>
         <externalId>false</externalId>
         <label>Support</label>
