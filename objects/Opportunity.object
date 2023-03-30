@@ -274,6 +274,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Maturity__c</fullName>
+        <externalId>false</externalId>
+        <label>Maturity</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>NB__c</fullName>
         <externalId>false</externalId>
         <label>NB</label>
