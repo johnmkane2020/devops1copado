@@ -277,7 +277,7 @@
         <fullName>Maturity__c</fullName>
         <externalId>false</externalId>
         <label>Maturity</label>
-        <length>20</length>
+        <length>10</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
