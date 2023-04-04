@@ -119,6 +119,10 @@
                 <behavior>Edit</behavior>
                 <field>Progress__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Quality__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
