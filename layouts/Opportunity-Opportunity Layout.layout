@@ -123,6 +123,10 @@
                 <behavior>Edit</behavior>
                 <field>Quality__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Devops1__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
