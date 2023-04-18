@@ -603,6 +603,17 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Standardization__c</fullName>
+        <externalId>false</externalId>
+        <label>Standardization</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Step__c</fullName>
         <externalId>false</externalId>
         <label>Step</label>
