@@ -127,6 +127,10 @@
                 <behavior>Edit</behavior>
                 <field>Devops1__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Standardization__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
