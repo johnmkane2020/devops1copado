@@ -11707,6 +11707,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Beach_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.CampaignId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11908,6 +11913,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Success__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Sunscreen__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
