@@ -426,6 +426,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>MLB__c</fullName>
+        <externalId>false</externalId>
+        <label>MLB</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>MailingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
