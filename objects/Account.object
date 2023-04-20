@@ -546,6 +546,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Sandals__c</fullName>
+        <externalId>false</externalId>
+        <label>Sandals</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
