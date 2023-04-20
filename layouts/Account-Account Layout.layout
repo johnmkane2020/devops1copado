@@ -59,6 +59,10 @@
                 <behavior>Edit</behavior>
                 <field>Program__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Sandals__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
