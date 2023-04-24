@@ -13956,6 +13956,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SBQQ__DiscountSchedule__c.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SBQQ__DiscountSchedule__c.SBQQ__Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14466,6 +14471,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SBQQ__LookupQuery__c.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SBQQ__LookupQuery__c.SBQQ__LookupField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14556,6 +14566,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SBQQ__PriceAction__c.Copado_External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SBQQ__PriceAction__c.External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14612,6 +14627,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SBQQ__PriceAction__c.SBQQ__Value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__PriceCondition__c.Copado_External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14677,6 +14697,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>SBQQ__PriceCondition__c.SBQQ__Value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__PriceRule__c.Copado_External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -26938,6 +26963,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__DiscountSchedule__c-SBQQ__Discount Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SBQQ__LookupQuery__c-SBQQ__Lookup Query Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>SBQQ__PriceAction__c-SBQQ__Price Action Layout</layout>
