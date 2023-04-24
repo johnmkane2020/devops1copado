@@ -13961,6 +13961,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>SBQQ__DiscountSchedule__c.External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>SBQQ__DiscountSchedule__c.SBQQ__Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
