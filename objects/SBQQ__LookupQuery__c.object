@@ -156,6 +156,17 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Copado_External_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Copado External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>SBQQ__LookupField__c</fullName>
         <deprecated>false</deprecated>
         <description>API Name of the custom field used in the query.</description>
@@ -401,7 +412,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Lookup Queries</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>SBQQ__Configuration_Attribute_Validation</fullName>
