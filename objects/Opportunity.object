@@ -159,7 +159,7 @@
         <fullName>Automate__c</fullName>
         <externalId>false</externalId>
         <label>Automate</label>
-        <length>11</length>
+        <length>22</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
