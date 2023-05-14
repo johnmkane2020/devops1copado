@@ -233,6 +233,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Efficiency__c</fullName>
+        <externalId>false</externalId>
+        <label>Efficiency</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ExpectedRevenue</fullName>
         <trackTrending>false</trackTrending>
     </fields>
@@ -241,6 +252,17 @@
         <externalId>false</externalId>
         <label>Grade</label>
         <length>5</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Harbor_Cruise__c</fullName>
+        <externalId>false</externalId>
+        <label>Harbor Cruise</label>
+        <length>25</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>

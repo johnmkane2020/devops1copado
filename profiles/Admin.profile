@@ -11766,6 +11766,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Efficiency__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.ExpectedRevenue</field>
         <readable>false</readable>
@@ -11773,6 +11778,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Grade__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Harbor_Cruise__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
