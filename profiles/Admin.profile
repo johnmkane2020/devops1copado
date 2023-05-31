@@ -10611,6 +10611,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.Visibility__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.World_Cup_Team__c</field>
         <readable>true</readable>
     </fieldPermissions>
