@@ -8,13 +8,13 @@ public class AccountOperations {
     }
        //New methods introduced by Developer 1 working on the US-003
     public static Account setDefaultBillingAddress(Account a){
-        a.billingstreet = '535 Mission Street, 160th floor'; // DEV 1 updates
+        a.billingstreet = '535 Mission Street, 50th floor'; // DEV 1 updates
         a.billingstate = 'California';
         a.billingpostalcode ='92686'; // DEV 2 updates
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = '535 Mission Street, 160th floor'; // DEV 1 updates
+        a.shippingstreet = '535 Mission Street, 50th floor'; // DEV 1 updates
         a.shippingstate = 'California';
         a.shippingpostalcode ='92686'; // DEV 2 updates
         return a;
