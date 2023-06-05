@@ -559,6 +559,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Visibility__c</fullName>
+        <externalId>false</externalId>
+        <label>Visibility</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>World_Cup_Team__c</fullName>
         <externalId>false</externalId>
         <label>World Cup Team</label>
