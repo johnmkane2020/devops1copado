@@ -206,6 +206,17 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Control__c</fullName>
+        <externalId>false</externalId>
+        <label>Control</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>DB__c</fullName>
         <externalId>false</externalId>
         <label>DB</label>
