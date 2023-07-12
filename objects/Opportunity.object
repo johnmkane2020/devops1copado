@@ -476,6 +476,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Ranking__c</fullName>
+        <externalId>false</externalId>
+        <label>Ranking</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Rating__c</fullName>
         <externalId>false</externalId>
         <label>Rating</label>
