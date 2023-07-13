@@ -35,6 +35,10 @@
                 <behavior>Edit</behavior>
                 <field>Scalability__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Growth_Metric__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
