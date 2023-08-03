@@ -267,7 +267,7 @@
         <fullName>Growth_Metric__c</fullName>
         <externalId>false</externalId>
         <label>Growth Metric</label>
-        <length>20</length>
+        <length>5</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
