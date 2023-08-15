@@ -9966,6 +9966,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Growth_Metric__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.HQ__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -10082,6 +10087,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Sandals__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Scalability__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12346,6 +12356,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Approved_By__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Automate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -12363,6 +12378,11 @@
         <editable>false</editable>
         <field>Opportunity.ContractId</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Control__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -12482,6 +12502,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Quality__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Ranking__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

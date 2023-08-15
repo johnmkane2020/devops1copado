@@ -156,6 +156,17 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Approved_By__c</fullName>
+        <externalId>false</externalId>
+        <label>Approved By</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Automate__c</fullName>
         <externalId>false</externalId>
         <label>Automate</label>
@@ -193,6 +204,17 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Control__c</fullName>
+        <externalId>false</externalId>
+        <label>Control</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>DB__c</fullName>
@@ -436,6 +458,17 @@
         <externalId>false</externalId>
         <label>Quality</label>
         <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ranking__c</fullName>
+        <externalId>false</externalId>
+        <label>Ranking</label>
+        <length>30</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
