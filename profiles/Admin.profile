@@ -12361,6 +12361,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Auditability__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Automate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -12567,6 +12572,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.SK__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Scale__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
