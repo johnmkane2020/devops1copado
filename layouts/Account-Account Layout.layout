@@ -39,6 +39,10 @@
                 <behavior>Edit</behavior>
                 <field>Growth_Metric__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>QTR__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

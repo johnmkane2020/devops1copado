@@ -10025,6 +10025,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.QTR__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.Rating</field>
         <readable>false</readable>
@@ -11176,6 +11181,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.QTR__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.Referred_By__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11192,6 +11202,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Type_of_Pet__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Visibility__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12507,6 +12522,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Progress__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.QTR__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
