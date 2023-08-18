@@ -10025,6 +10025,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.QTR__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.Rating</field>
         <readable>false</readable>
@@ -11172,6 +11177,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Phone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.QTR__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12507,6 +12517,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Progress__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.QTR__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
