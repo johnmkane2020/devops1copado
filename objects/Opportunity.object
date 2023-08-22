@@ -200,6 +200,18 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>COE__c</fullName>
+        <externalId>false</externalId>
+        <label>COE</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CampaignId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
