@@ -708,6 +708,18 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Spec__c</fullName>
+        <externalId>false</externalId>
+        <label>Spec</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>StageName</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
