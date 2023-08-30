@@ -11796,6 +11796,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Confirmed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.ContractId</field>
         <readable>false</readable>
@@ -11838,6 +11843,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Enzo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Estimate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
